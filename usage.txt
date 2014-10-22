@@ -1,0 +1,20 @@
+Usage: dbscan2d POINTSFILE [EPSILON CORE_MIN_NEIGHBORS]
+
+Reads POINTSFILE, clusters the points with DBScan and writes the clustering to
+stdout. POINTSFILE must be a text file where each line denotes one point in the
+format
+x y [...]
+and x and y must be interpretable as integers. Only the first two
+space-separated integers are considered as input, further characters are
+discarded.
+The output is in the format
+x y label
+where "label" is an integer. A label value of -1 denotes a noise point and all
+values >0 denote the cluster assignment of the point (x, y).
+(Note that a label of 0 denotes an unassigned point and should not appear in the
+final clustering.)
+OPTIONAL PARAMETERS
+  EPSILON  The maximum distance where points count as neighbors.
+           Default is 4.
+  CORE_MIN_NEIGHBORS  The minimum required points in the epsilon distance
+                      to count a point as core point. Default is 2.
