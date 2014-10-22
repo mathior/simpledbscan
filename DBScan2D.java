@@ -26,7 +26,7 @@ import java.util.Set;
  * A simple DBScan implementation tailored for the 2D-integer-domain.
  * <p>
  * 
- * @author christof.braeutigam@uni-weimar.de
+ * @author chris.braeutigam@gmail.com
  * @version $Id: DBScan2D.java,v 1.1 2013/10/07 18:37:35 apui9892 Exp $
  * 
  */

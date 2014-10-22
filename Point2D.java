@@ -2,7 +2,7 @@
 /**
  * Models a 2D point.
  * 
- * @author christof.braeutigam@uni-weimar.de
+ * @author chris.braeutigam@gmail.com
  * @author michael.voelske@uni-weimar.de
  * @version $Id: Point2D.java,v 1.1 2013/10/07 18:37:35 apui9892 Exp $
  * 
